@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5EB8211F44162E00984546 /* UIColor+Wex.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5EB8201F44162E00984546 /* UIColor+Wex.m */; };
+		CA5EB8241F441B2300984546 /* cell-state-normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5EB8221F441B2300984546 /* cell-state-normal@3x.png */; };
+		CA5EB8251F441B2300984546 /* cell-state-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5EB8231F441B2300984546 /* cell-state-selected@3x.png */; };
 		CA6FDC941F42F4C3000FAEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDC931F42F4C3000FAEC2 /* main.m */; };
 		CA6FDC971F42F4C3000FAEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDC961F42F4C3000FAEC2 /* AppDelegate.m */; };
 		CA6FDC9A1F42F4C3000FAEC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDC991F42F4C3000FAEC2 /* ViewController.m */; };
 		CA6FDC9D1F42F4C4000FAEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FDC9B1F42F4C4000FAEC2 /* Main.storyboard */; };
 		CA6FDC9F1F42F4C4000FAEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6FDC9E1F42F4C4000FAEC2 /* Assets.xcassets */; };
 		CA6FDCA21F42F4C4000FAEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FDCA01F42F4C4000FAEC2 /* LaunchScreen.storyboard */; };
+		CA6FDCAC1F42F5AC000FAEC2 /* WexSingleChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDCAB1F42F5AC000FAEC2 /* WexSingleChooseView.m */; };
+		CA6FDCB01F42F93A000FAEC2 /* UIView+Wex.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDCAF1F42F93A000FAEC2 /* UIView+Wex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5EB81F1F44162E00984546 /* UIColor+Wex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Wex.h"; sourceTree = "<group>"; };
+		CA5EB8201F44162E00984546 /* UIColor+Wex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Wex.m"; sourceTree = "<group>"; };
+		CA5EB8221F441B2300984546 /* cell-state-normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-state-normal@3x.png"; sourceTree = "<group>"; };
+		CA5EB8231F441B2300984546 /* cell-state-selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-state-selected@3x.png"; sourceTree = "<group>"; };
 		CA6FDC8F1F42F4C3000FAEC2 /* WexSingleChooseView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WexSingleChooseView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6FDC931F42F4C3000FAEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA6FDC951F42F4C3000FAEC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		CA6FDC9E1F42F4C4000FAEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6FDCA11F42F4C4000FAEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA6FDCA31F42F4C4000FAEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6FDCAA1F42F5AC000FAEC2 /* WexSingleChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WexSingleChooseView.h; sourceTree = "<group>"; };
+		CA6FDCAB1F42F5AC000FAEC2 /* WexSingleChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WexSingleChooseView.m; sourceTree = "<group>"; };
+		CA6FDCAD1F42F785000FAEC2 /* WexSingleChooseViewMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WexSingleChooseViewMacro.h; sourceTree = "<group>"; };
+		CA6FDCAE1F42F93A000FAEC2 /* UIView+Wex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Wex.h"; sourceTree = "<group>"; };
+		CA6FDCAF1F42F93A000FAEC2 /* UIView+Wex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Wex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 		CA6FDC911F42F4C3000FAEC2 /* WexSingleChooseView */ = {
 			isa = PBXGroup;
 			children = (
+				CA6FDCA91F42F537000FAEC2 /* WexSingleChooseView */,
 				CA6FDC951F42F4C3000FAEC2 /* AppDelegate.h */,
 				CA6FDC961F42F4C3000FAEC2 /* AppDelegate.m */,
 				CA6FDC981F42F4C3000FAEC2 /* ViewController.h */,
@@ -77,6 +92,22 @@
 				CA6FDC931F42F4C3000FAEC2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA6FDCA91F42F537000FAEC2 /* WexSingleChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				CA5EB8221F441B2300984546 /* cell-state-normal@3x.png */,
+				CA5EB8231F441B2300984546 /* cell-state-selected@3x.png */,
+				CA6FDCAA1F42F5AC000FAEC2 /* WexSingleChooseView.h */,
+				CA6FDCAB1F42F5AC000FAEC2 /* WexSingleChooseView.m */,
+				CA6FDCAD1F42F785000FAEC2 /* WexSingleChooseViewMacro.h */,
+				CA6FDCAE1F42F93A000FAEC2 /* UIView+Wex.h */,
+				CA6FDCAF1F42F93A000FAEC2 /* UIView+Wex.m */,
+				CA5EB81F1F44162E00984546 /* UIColor+Wex.h */,
+				CA5EB8201F44162E00984546 /* UIColor+Wex.m */,
+			);
+			path = WexSingleChooseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +170,8 @@
 			files = (
 				CA6FDCA21F42F4C4000FAEC2 /* LaunchScreen.storyboard in Resources */,
 				CA6FDC9F1F42F4C4000FAEC2 /* Assets.xcassets in Resources */,
+				CA5EB8241F441B2300984546 /* cell-state-normal@3x.png in Resources */,
+				CA5EB8251F441B2300984546 /* cell-state-selected@3x.png in Resources */,
 				CA6FDC9D1F42F4C4000FAEC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +185,10 @@
 			files = (
 				CA6FDC9A1F42F4C3000FAEC2 /* ViewController.m in Sources */,
 				CA6FDC971F42F4C3000FAEC2 /* AppDelegate.m in Sources */,
+				CA6FDCAC1F42F5AC000FAEC2 /* WexSingleChooseView.m in Sources */,
+				CA5EB8211F44162E00984546 /* UIColor+Wex.m in Sources */,
 				CA6FDC941F42F4C3000FAEC2 /* main.m in Sources */,
+				CA6FDCB01F42F93A000FAEC2 /* UIView+Wex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +345,7 @@
 				CA6FDCA81F42F4C4000FAEC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
